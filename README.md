@@ -12,6 +12,9 @@
 - Daily progress & notes
 - Small coding experiments
 - Learning-focused projects
+
+## Projects 🚀
+- [Python Daily Learning](https://github.com/NikosKatrakoulis/python-daily-learning)
 -->
 
 🟢 Git setup completed successfully
