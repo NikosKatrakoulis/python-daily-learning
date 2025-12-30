@@ -36,4 +36,4 @@ mini_projects/ # Small experiments & mini projects
 
 ## 🎯 Goal
 
-Build strong Python foundations and gradually move towards **AI Engineering** throu
+Build strong Python foundations and gradually move towards **AI Engineering**.
