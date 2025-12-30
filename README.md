@@ -1,20 +1,14 @@
-## Hi there 👋
+# Python Daily Learning 🐍
 
-<!--
-# Nikos Katrakoulis 👋
+Daily notes, exercises, and small projects as I practice Python consistently.
 
-🎓 MSc Software Development student
-💻 Python & Java enthusiast
-🚀 Building projects daily and learning through hands-on practice
-🤖 Interested in AI Engineering
+## Structure
 
-## What you'll find here
-- Daily progress & notes
-- Small coding experiments
-- Learning-focused projects
+- `2025/week-XX/`
+  - `notes.md` – learning notes
+  - `exercises/` – practice exercises
+  - `mini_projects/` – small experiments
 
-## Projects 🚀
-- [Python Daily Learning](https://github.com/NikosKatrakoulis/python-daily-learning)
--->
+## Goal
 
-🟢 Git setup completed successfully
+Build strong Python foundations and gradually move towards AI Engineering.
