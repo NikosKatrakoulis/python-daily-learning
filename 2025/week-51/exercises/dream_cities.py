@@ -1,0 +1,10 @@
+dream_cities = ['nyc', 'zurich', 'amsterdam', 'la', 'miami']
+print(dream_cities)
+print(sorted(dream_cities))
+print(sorted(dream_cities, reverse=True))
+dream_cities.reverse()
+print(dream_cities)
+dream_cities.sort()
+print(dream_cities)
+dream_cities.sort(reverse=True)
+print(dream_cities)
