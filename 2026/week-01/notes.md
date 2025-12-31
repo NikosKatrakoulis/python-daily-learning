@@ -1,4 +1,4 @@
-# Week 52 – Daily Notes 🐍
+# Week 1 – Daily Notes 🐍
 
 ## Day 2 - Python Learning & GitHub Setup
 
@@ -29,3 +29,11 @@ Make the first step with commits/push/repos
 - PCC's Exercises plus additional exercises like these
 - PCC's Recap Exercises Variables & Lists
 - Mini Project Text-Based Game
+
+## Day 4 - Python Learning
+
+**What I learned**
+
+-PCC/Dictionaries
+
+- Simply
