@@ -34,6 +34,16 @@ Make the first step with commits/push/repos
 
 **What I learned**
 
--PCC/Dictionaries
+- PCC/Dictionaries
 
-- Simply
+  - Looping Through a Dictionary
+  - Looping Through All Key-Value Pairs
+  - Looping Through all the Keys in a Dictionary
+  - Looping Through a Dictionary's Keys in a Particular Order
+  - Looping Through All Values in a Dictionary
+  - Nesting
+  - A List of Dictionaries
+
+- PCC's Recap Exercises Lists
+- PCC's Exercises Dictionaries
+- Mini Project Text-Based Game
