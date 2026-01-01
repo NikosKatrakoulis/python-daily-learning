@@ -97,3 +97,45 @@ print(alien_0)
 
 del alien_0['points']
 print(alien_0)
+
+print("\n")
+
+# The alien_0 dictionary contains a variety of information
+# about one alien, but it has no room to store information
+# about a second alien, much less a screen full of aliens. How
+# can you manage a fleet of aliens? One way is to make a list
+# of aliens in which each alien is a dictionary of information
+# about that alien. For example, the following code builds a
+# list of three aliens:
+
+alien_0 = {'color': 'green', 'points': 5}
+alien_1 = {'color': 'yellow', 'points': 10}
+alien_2 = {'color': 'red', 'points': 15}
+
+aliens = [alien_0, alien_1, alien_2]
+
+for alien in aliens:
+    print(alien)
+
+print("\n")
+
+# A more realistic example would involve more than three
+# aliens with code that automatically generates each alien. In
+# the following example, we use range() to create a fleet of 30
+# aliens:
+
+# Make an empty list for storing aliens.
+aliens = []
+
+# Make 30 green aliens.
+for alien_number in range(30):
+    new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+    aliens.append(new_alien)
+
+# Show the first 5 aliens.
+for alien in aliens[:5]:
+    print(alien)
+print("...")
+
+# Show how many aliens have been created.
+print(f"Total number of aliens: {len(aliens)}")
