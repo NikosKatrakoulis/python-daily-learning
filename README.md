@@ -13,11 +13,13 @@ notes.md # Learning notes
 exercises/ # Practice exercises
 mini_projects/ # Small experiments & mini projects
 
-2026/
+2025/
 week-XX/
 notes.md # Learning notes
 exercises/ # Practice exercises
 mini_projects/ # Small experiments & mini projects
+
+
 ---
 
 ## 🧠 What I’m practicing
