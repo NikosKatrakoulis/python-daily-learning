@@ -132,6 +132,23 @@ for alien_number in range(30):
     new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
     aliens.append(new_alien)
 
+# When it’s time to change colors, we can use a for loop and
+# an if statement to change the color of the aliens. For
+# example, to change the first three aliens to yellow, medium
+# speed aliens worth 10 points each, we could do this:
+
+for alien in aliens[:3]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow'
+        alien['speed'] = 'medium'
+        alien['points'] = 10
+
+    if alien['color'] == 'yellow':
+        alien['color'] = 'red'
+        alien['speed'] = 'fast'
+        alien['points'] = 15
+
+
 # Show the first 5 aliens.
 for alien in aliens[:5]:
     print(alien)

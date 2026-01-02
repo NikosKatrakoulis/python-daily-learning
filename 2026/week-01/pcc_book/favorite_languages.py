@@ -130,3 +130,24 @@ for language in set(favorite_languages.values()):
 # but no key-value pairs, you’re probably looking at a
 # set. Unlike lists and dictionaries, sets do not retain
 # items in any specific order
+
+
+# If we were to store each person’s responses in a
+# list, people could choose more than one favorite language.
+# When we loop through the dictionary, the value associated
+# with each person would be a list of languages rather than a
+# single language. Inside the dictionary’s for loop, we use
+# another for loop to run through the list of languages
+# associated with each person:
+
+favorite_languages = {
+    'jen': ['python', 'rust'],
+    'sarah': ['c'],
+    'edward': ['rust', 'go'],
+    'phil': ['python', 'haskell'],
+}
+
+for name, languages in favorite_languages.items():
+    print(f"\n{name.title()}'s favorite languages are:")
+    for language in languages:
+        print(f"\t{language.title()}")
