@@ -47,3 +47,16 @@ Make the first step with commits/push/repos
 - PCC's Recap Exercises Lists
 - PCC's Exercises Dictionaries
 - Mini Project Text-Based Game
+
+## Day 5 - Python Learning
+
+**What I learned**
+
+- PCC/Dictionaries
+
+  - A List of Dictionaries
+  - A list in a Dictionary
+  - A Dictionary in a Dictionary
+
+- PCC's recap Exercises Conditional Tests
+- PCC's Exercises Dictionaries
