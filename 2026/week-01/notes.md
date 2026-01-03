@@ -44,7 +44,7 @@ Make the first step with commits/push/repos
   - Nesting
   - A List of Dictionaries
 
-- PCC's Recap Exercises Lists
+- PCC's Recap Exercises Lists,Tuple
 - PCC's Exercises Dictionaries
 - Mini Project Text-Based Game
 
@@ -60,3 +60,21 @@ Make the first step with commits/push/repos
 
 - PCC's recap Exercises Conditional Tests
 - PCC's Exercises Dictionaries
+
+## Day 6 - Python Learning
+
+**What I learned**
+
+- PCC/ User Input and While Loops
+
+  - How the input() Function Works
+  - Writing Clear prompts
+  - Using int() to Accept Numerical Input
+  - The Modulo Operator
+  - Introducing while Loops
+  - The while Loop in Action
+  - Letting the User Choose When to Quit
+  - Using a Flag
+
+- PCC Recap Exercises If Statements
+- PCC Exercises User Inputs
