@@ -20,8 +20,8 @@ while polling_active:
 
     # Find out if anyone else ig going to take the poll.
     repeat = input(
-        "Would you like to let another person respond? (yes/no)").strip().lower()
-    if repeat.lower() == 'no':
+        "Would you like to let another person respond? (yes/no)")
+    if repeat == 'no':
         polling_active == False
         break
 
