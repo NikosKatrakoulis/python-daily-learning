@@ -84,6 +84,7 @@ Make the first step with commits/push/repos
 **What I Learned**
 
 - PCC/ User Input and While Loops
+
   - Using break to Exit a Loop
   - Using continue in a Loop
   - Avoiding Infinite Loops
@@ -91,3 +92,6 @@ Make the first step with commits/push/repos
   - moving Items form One List to Another
   - Removing All Instances of Specific Values from a List
   - Filling a Dictionary with User Input
+
+- PCC Exercises Input User/While loops
+- Mini Project CSV tool
