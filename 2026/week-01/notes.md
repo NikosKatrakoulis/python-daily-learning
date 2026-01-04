@@ -78,3 +78,16 @@ Make the first step with commits/push/repos
 
 - PCC Recap Exercises If Statements
 - PCC Exercises User Inputs
+
+## Day 7 -Python Learning
+
+**What I Learned**
+
+- PCC/ User Input and While Loops
+  - Using break to Exit a Loop
+  - Using continue in a Loop
+  - Avoiding Infinite Loops
+  - Using a while Loop with Lists and Dictionaries
+  - moving Items form One List to Another
+  - Removing All Instances of Specific Values from a List
+  - Filling a Dictionary with User Input
