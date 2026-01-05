@@ -5,6 +5,7 @@
 **What I Learned**
 
 - PCC/ Functions
+
   - Defining a Function
   - Passing Information to a Function
   - Arguments and Parameters
@@ -19,3 +20,6 @@
   - Return Values
   - Returning a Simple Value
   - Making an Argument Optional
+
+- PCC's Functions Exercises
+-
