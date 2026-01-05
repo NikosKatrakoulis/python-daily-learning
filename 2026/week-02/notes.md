@@ -23,3 +23,4 @@
 
 - PCC's Functions Exercises
 - PCC Recap Exercises
+- CSV project
