@@ -47,4 +47,5 @@
   - Importing All Functions in a Module
   - Styling Functions
 
-- PCC Function Exervcises
+- PCC Function Exercises
+- Mini project
