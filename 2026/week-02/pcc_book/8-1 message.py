@@ -3,7 +3,8 @@
 # the function, and make sure the message displays correctly.
 
 def display_message():
-    print("I am learning about functions in this chapter.")
+    msg = "I am learning about functions in this chapter."
+    print(msg)
 
 
 display_message()

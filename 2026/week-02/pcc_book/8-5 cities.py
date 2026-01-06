@@ -5,7 +5,8 @@
 # default country.
 
 def describe_city(city, country='Iceland'):
-    print(f"{city.title()} is in {country.title()}.")
+    message = f"{city.title()} is in {country.title()}."
+    print(message)
 
 
 describe_city('Reykjavik')

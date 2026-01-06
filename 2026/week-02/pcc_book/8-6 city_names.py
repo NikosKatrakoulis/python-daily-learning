@@ -9,9 +9,11 @@ def city_country(city, country):
     return f"{city.title()}, {country.title()}"
 
 
-location1 = city_country(city='athens', country='greece')
-location2 = city_country(city='amsterdam', country='the netherlands')
-location3 = city_country(city='zurich', country='switzerland')
-print(location1)
-print(location2)
-print(location3)
+location = city_country(city='athens', country='greece')
+print(location)
+
+location = city_country(city='amsterdam', country='the netherlands')
+print(location)
+
+location = city_country(city='zurich', country='switzerland')
+print(location)

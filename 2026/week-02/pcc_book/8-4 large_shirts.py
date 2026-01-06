@@ -10,4 +10,4 @@ def make_shirt(size='L', message='I love Python'):
 
 make_shirt()
 make_shirt(size='M')
-make_shirt(size='M', message='I love Sofaki')
+make_shirt(size='S', message='I love Sofaki')
