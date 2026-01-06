@@ -332,3 +332,84 @@ def main() -> None:
                     n = int(maybe)
 
             preview_rows(headers, rows, n=n)
+
+        # Option 3: Show columns
+
+        elif choice == "3":
+            if not headers:
+                print("No CSV loaded yet. Load a file first.")
+                continue
+
+            show_columns(headers)
+
+        # Option 4: Filter rows
+
+        elif choice == "4":
+            if not headers:
+                print("No CSV loaded yet. Load a file first.")
+                continue
+
+            column = safe_input("Column name to filter by: ")
+            if column not in headers:
+                print("That column does not exist.")
+                continue
+
+            value = safe_input("Value to match (exact): ")
+            rows = filter_rows_equals(rows, column, value)
+            print(f"Now you have {len(rows)} row(s) after filtering.")
+
+        # Option 5: Select columns
+
+        elif choice == "5":
+            if not headers:
+                print("No CSV loaded yet. Load a file first.")
+                continue
+
+            cols_str = safe_input("Enter columns to keep (comma-separated): ")
+            selected = [c.strip() for c in cols_str.split(",") if c.strip()]
+            if not selected:
+                print("No columns provided.")
+                continue
+
+            headers, rows = select_columns(headers, rows, selected)
+            print(f"Now you have {len(headers)} column(s).")
+
+        # Option 6: Sort rows
+
+        elif choice == "6":
+            if not headers:
+                print("No CSV loaded yet. Load a file first.")
+                continue
+
+            column = safe_input("Column to sort by:")
+            if column not in headers:
+                print("That column does not exist.")
+                continue
+
+            direction = safe_input("Sort direction (asc/desc): ").lower()
+            descending = direction = "desc"
+
+            rows = sort_rows(rows, column, descending=descending)
+            print("Rows sorted.")
+
+        # Option 7: Add column
+
+        elif choice == "7":
+            if not headers:
+                print("No CSV loaded yet. Load a file first.")
+                continue
+
+            print("\nAdd column options:")
+            print("1) Copy an existing column")
+            print("2) Numeric rule (e.g. age >= 18 -> YES/NO)")
+            sub = safe_input("Choose 1 or 2: ")
+
+            new_col = safe_input("New column name: ")
+            if not new_col:
+                print("Column name cannot be empty.")
+                continue
+
+            source_col = safe_input("Source column name: ")
+            if source_col not in headers:
+                print("That source column does not exist.")
+                continue
