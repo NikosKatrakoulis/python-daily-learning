@@ -30,6 +30,7 @@
 **What I Learned**
 
 - PCC/ Functions
+
   - Returning a Dictionary
   - Using a Function with a while Loop
   - Passing a List
@@ -45,3 +46,5 @@
   - Using as to Give a Module an Alias
   - Importing All Functions in a Module
   - Styling Functions
+
+- PCC Function Exervcises
