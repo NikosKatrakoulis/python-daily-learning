@@ -39,6 +39,8 @@
   - Mixing Positional and Arbitrary Arguments
   - Using Arbitrary Keyword Arguments
   - Storing Your Functions in Modules
+  - Importing an Entire Module
+  - Importing Specific Functions
   - Using as to Give a Function an Alias
   - Using as to Give a Module an Alias
   - Importing All Functions in a Module
