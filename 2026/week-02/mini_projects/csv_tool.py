@@ -298,7 +298,7 @@ def main() -> None:
             print("Goodbye!")
             break
 
-        # option 1: Load CSV
+        # Option 1: Load CSV
 
         elif choice == "1":
             file_path = safe_input("Enter CSV file path: ")
@@ -317,7 +317,7 @@ def main() -> None:
             except Exception as e:
                 print(f"Failed to load CSV: {e}")
 
-            # Option 2: Preview rows
+        # Option 2: Preview rows
 
         elif choice == "2":
             if not headers:
