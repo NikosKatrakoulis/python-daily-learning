@@ -49,3 +49,29 @@
 
 - PCC Function Exercises
 - Mini project
+
+## Day 3 - Python Learning
+
+**What I Learned**
+
+- PCC/ Classes
+  - Creating and Using a Class
+  - Creating the Dog Class
+  - The **init**() Method
+  - Making an Instance from a Class
+  - Accessing Attributes
+  - Calling Methods
+  - Creating Multiple Instances
+  - Working with Classes and Instances
+  - The Car Class
+  - Setting a Default Value for an Attribute
+  - Modifying Attribute Values
+  - Modifying an Attribute's Value Directly
+  - Modifying an Attribute's Value Through a Method
+  - Incrementing an Attribute's Value Through a Method
+  - Inheritance
+  - The **init**() Method for a Child Class
+  - Defining Attributes and Methods for the Child Class
+  - Overriding Methods from the Parent Class
+  - Instances as Attributes
+  - Modeling Real-World Objects
