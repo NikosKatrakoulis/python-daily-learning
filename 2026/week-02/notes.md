@@ -55,6 +55,7 @@
 **What I Learned**
 
 - PCC/ Classes
+
   - Creating and Using a Class
   - Creating the Dog Class
   - The **init**() Method
@@ -75,3 +76,5 @@
   - Overriding Methods from the Parent Class
   - Instances as Attributes
   - Modeling Real-World Objects
+
+- PCC Classes' Exercises
