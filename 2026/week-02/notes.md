@@ -78,3 +78,4 @@
   - Modeling Real-World Objects
 
 - PCC Classes' Exercises
+- Develop mini project
