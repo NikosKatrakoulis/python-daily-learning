@@ -85,6 +85,7 @@
 **What I Learned**
 
 - PCC Classes
+
   - Importing Classes
   - Importing a Single Class
   - Storing Multiple Classes in a Module
@@ -95,3 +96,9 @@
   - Using Aliases
   - Finding Your Own Workflow
   - The Python Standard Library
+  - Styling Classes
+  - Summary
+
+- PCC Files & Exceptions
+  - Reading from a File
+  - Reading the Contents of a File
