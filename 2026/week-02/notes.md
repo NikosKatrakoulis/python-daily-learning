@@ -1,6 +1,6 @@
 # Week 2 - Daily Notes
 
-## Day 1 - Functions
+## Day 1 - Python Learning
 
 **What I Learned**
 
@@ -79,3 +79,19 @@
 
 - PCC Classes' Exercises
 - Develop mini project
+
+## Day 4 - Python Learning
+
+**What I Learned**
+
+- PCC Classes
+  - Importing Classes
+  - Importing a Single Class
+  - Storing Multiple Classes in a Module
+  - Importing Multiple Classes form a Module
+  - Importing an Entire Module
+  - Importing All Classes from a Module
+  - Importing a Module into a Module
+  - Using Aliases
+  - Finding Your Own Workflow
+  - The Python Standard Library
