@@ -105,7 +105,10 @@
 
 ## Day 6 - Python Learning
 
-- PCC Files & Exception
+**What I Learned**
+
+- PCC Files & Exceptions
+
   - Reading from a File
   - Reading the Contents of a File
   - Relative and Absolute File Paths
@@ -113,4 +116,27 @@
   - Working with a File's Contents
   - Large Files: One Million Digits
   - Is Your Birthday Contained in Pi?
-  -
+  - Writing to a File
+  - Writing a Single Line
+  - Writing Multiple Lines
+
+- PCC Exercises Functions/While Loop/ Classes/ Files
+
+## Day 7 - Python Learning
+
+**What I Learned**
+
+- PCC Exceptions
+  - Handling the ZeroDivisionError Exception
+  - Using try-except Blocks
+  - Using Exceptions to Prevent Crashes
+  - The else Block
+  - Handling the FileNotFoundError Exception
+  - Analyzing Text
+  - Working with Multiple Files
+  - Failing Silently
+  - Deciding Which Errors to Report
+  - Storing Data
+  - Using json.dumps() and json.loads()
+  - Saving and Reading User-Generated Data
+  - Refactoring
