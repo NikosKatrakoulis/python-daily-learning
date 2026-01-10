@@ -102,3 +102,15 @@
 - PCC Files & Exceptions
   - Reading from a File
   - Reading the Contents of a File
+
+## Day 6 - Python Learning
+
+- PCC Files & Exception
+  - Reading from a File
+  - Reading the Contents of a File
+  - Relative and Absolute File Paths
+  - Accessing a File's Lines
+  - Working with a File's Contents
+  - Large Files: One Million Digits
+  - Is Your Birthday Contained in Pi?
+  -
