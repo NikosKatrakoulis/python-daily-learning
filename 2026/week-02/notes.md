@@ -127,6 +127,7 @@
 **What I Learned**
 
 - PCC Exceptions
+
   - Handling the ZeroDivisionError Exception
   - Using try-except Blocks
   - Using Exceptions to Prevent Crashes
@@ -140,3 +141,5 @@
   - Using json.dumps() and json.loads()
   - Saving and Reading User-Generated Data
   - Refactoring
+
+- PCC Exercise
