@@ -5,3 +5,9 @@
 **What I Learned**
 
 - PCC Exercises with Functions
+
+## Day 2 - Python Learning
+
+**What I Learned**
+
+- PCC Exercises with Functions
