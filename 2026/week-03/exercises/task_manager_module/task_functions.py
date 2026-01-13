@@ -5,13 +5,17 @@
 # In this file, import the functions from task_functions.py and use
 # them to process a list of tasks.
 
-def show_tasks(tasks):
-    for task in tasks:
-        print(task)
+"""Functions related to managing tasks."""
 
 
-def completed_tasks(tasks, completed_tasks):
+def show_tasks(tasks, completed_tasks):
     while tasks:
         current_task = tasks.pop()
-        print(current_task)
-        completed_tasks.append(completed_tasks)
+        print(f"Task: {current_task}")
+        completed_tasks.append(current_task)
+
+
+def show_completed_tasks(completed_tasks):
+    print("\nThe following tasks have been done:")
+    for completed_task in completed_tasks:
+        print(completed_task)
