@@ -11,3 +11,9 @@
 **What I Learned**
 
 - PCC Exercises with Functions
+
+## Day 3 - Python learning
+
+**What I Learned**
+
+- PCC Exericses with Functions
