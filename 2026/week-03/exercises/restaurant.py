@@ -16,17 +16,17 @@ class Restaurant:
     def describe_restaurant(self):
         """Display a summary of the restaurant."""
         msg = f"{self.restaurant_name} serves wonderful {self.cuisine_type}."
-        print(msg)
+        print(f"\n{msg}")
 
     def open_restaurant(self):
         """Display a message that the restaurant is open."""
         msg = f"{self.restaurant_name} is open. Come on in!"
-        print(msg)
+        print(f"\n{msg}")
 
 
-resturant = Restaurant('Alio', 'pizza')
-print(resturant.restaurant_name)
-print(resturant.cuisine_type)
+restaurant = Restaurant('Alio', 'pizza')
+print(restaurant.restaurant_name)
+print(restaurant.cuisine_type)
 
-resturant.describe_restaurant()
-resturant.open_restaurant()
+restaurant.describe_restaurant()
+restaurant.open_restaurant()
