@@ -39,7 +39,7 @@ gym = Gym('ultra flex', 'peristeri')
 gym.describe_gym()
 gym.open_gym()
 
-print(f"Number of checked in members: {gym.members_checked}")
+print(f"\nNumber of checked in members: {gym.members_checked}")
 gym.members_checked = 153
 print(f"Number of checked in members: {gym.members_checked}")
 
