@@ -24,3 +24,9 @@
 **What I Learned**
 
 - PCC Exercises with Classes
+
+## Day 5 - Python Learning
+
+**What I Learned**
+
+- PCC Exercises with Classes
