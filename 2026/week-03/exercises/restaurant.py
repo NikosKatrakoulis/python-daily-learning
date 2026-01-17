@@ -24,9 +24,9 @@ class Restaurant:
         print(f"\n{msg}")
 
 
-restaurant = Restaurant('Alio', 'pizza')
-print(restaurant.restaurant_name)
-print(restaurant.cuisine_type)
+# restaurant = Restaurant('Alio', 'pizza')
+# print(restaurant.restaurant_name)
+# print(restaurant.cuisine_type)
 
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
+# restaurant.describe_restaurant()
+# restaurant.open_restaurant()
