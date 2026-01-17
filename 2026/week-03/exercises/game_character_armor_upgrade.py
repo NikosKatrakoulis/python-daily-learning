@@ -18,6 +18,22 @@ class Character:
 class Armor:
     """A simple attempt to model an armor for a warrior."""
 
+    def __init__(self, armor_level=1):
+        """Initialize the armor's attributes."""
+        self.armor_level = armor_level
+
+    def defense_points(self):
+        """Print a statement describing the armor level."""
+        print(f"The armor level of the warrior is {self.armor_level}.\n")
+
+    def upgrade_armor(self):
+        """Upgrade the armor level if possible."""
+        if self.armor_level == 1:
+            self.armor_level = 3
+            print("Upgraded the armor level.")
+        else:
+            print("The armor level is already upgraded.")
+
 
 class Warrior(Character):
     """Represent aspects of a character, specific to a warrior."""
@@ -29,3 +45,10 @@ class Warrior(Character):
         """
         super().__init__(name, level)
         self.armor = Armor()
+
+
+karabidas = Warrior('karabidas13', 88)
+karabidas.armor.defense_points()
+
+karabidas.armor.upgrade_armor()
+karabidas.armor.defense_points()
