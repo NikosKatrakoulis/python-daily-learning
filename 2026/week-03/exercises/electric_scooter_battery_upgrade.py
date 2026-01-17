@@ -11,6 +11,7 @@ class Scooter:
 
     def __init__(self):
         """Initialize the atttributes of the scooter."""
+        self.battery_size = Battery()
 
 
 class Battery:
@@ -26,4 +27,19 @@ class Battery:
             range = 20
         elif self.battery_size == 50:
             range = 35
-        print(f"\nThus scooter can go about {range}kilometers.")
+        print(f"\nThus scooter can go about {range} kilometers.")
+
+    def uprgrade_battery(self):
+        """Upgrade the battery if possible."""
+        if self.battery_size == 30:
+            self.battery_size = 50
+            print(f"\nUpgraded battery to {self.battery_size}-kWh.")
+        else:
+            print("The battery is already upgraded.")
+
+
+scooter = Scooter()
+scooter.battery_size.get_range()
+
+scooter.battery_size.uprgrade_battery()
+scooter.battery_size.get_range()
