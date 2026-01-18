@@ -7,3 +7,15 @@ from random import choice
 
 possibilities = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
                  11, 12, 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+
+winning_coupon = []
+print("Let's see what the winning coupon is...")
+
+while len(winning_coupon) < 5:
+    pulled_item = choice(possibilities)
+
+    if pulled_item not in winning_coupon:
+        print(f"    We pulled a {pulled_item}")
+        winning_coupon.append(pulled_item)
+
+print(f"\nThe final winning coupon is {winning_coupon}")
