@@ -11,7 +11,7 @@ def get_winning_ticket(possibilities):
     """Return a winning ticket from a set of possibilities."""
     winning_ticket = []
 
-    # We don't want to repeat winning numbers or letter, so we'll use a
+    # We don't want to repeat winning numbers or letters, so we'll use a
     # while loop.
 
     while len(winning_ticket) < 4:
