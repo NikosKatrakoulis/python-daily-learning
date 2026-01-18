@@ -36,3 +36,9 @@
 **What I Learned**
 
 - PCC Exercises with Classes
+
+## Day 7 - Python Learning
+
+**What I Learned**
+
+- PCC Exericses with classes and modules
