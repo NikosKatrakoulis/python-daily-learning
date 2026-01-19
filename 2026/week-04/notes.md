@@ -3,3 +3,4 @@
 ## Day 1 - Python Learning
 
 - PCC Exercises with Classes and modules
+- PCC Exercises with exceptions
