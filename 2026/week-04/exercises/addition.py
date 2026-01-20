@@ -15,5 +15,5 @@ try:
 except ValueError:
     print("Sorry, I really needed a number.")
 else:
-    sum = x + y
-    print(f"The sum of {x} and {y} is {sum}.")
+    total = x + y
+    print(f"The total of {x} and {y} is {total}.")
