@@ -4,3 +4,7 @@
 
 - PCC Exercises with Classes and modules
 - PCC Exercises with exceptions
+
+## Day 2 - Python Learning
+
+- PCC Exercises with exceptions
