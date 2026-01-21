@@ -1,0 +1,5 @@
+It is important to use comment or docstrings while you are using classes
+and functions. 
+When you are using while loop you need to get out of the loop by making
+the condition false.
+Tuple is a list that can not add or remove any element.
