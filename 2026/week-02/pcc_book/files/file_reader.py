@@ -1,7 +1,7 @@
 from pathlib import Path
 
 path = Path(
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//pi_digits.txt")
+    "pi_digits.txt")
 contents = path.read_text()
 
 lines = contents.splitlines()
@@ -20,7 +20,7 @@ print(len(pi_string))
 
 
 path = Path(
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//pi_million_digits.txt")
+    "pi_million_digits.txt")
 contents = path.read_text()
 
 lines = contents.splitlines()
@@ -39,7 +39,7 @@ print(len(pi_string))
 # appears anywhere in pi_string:
 
 path = Path(
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//pi_million_digits.txt")
+    "pi_million_digits.txt")
 contents = path.read_text()
 
 lines = contents.splitlines()
