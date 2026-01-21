@@ -8,3 +8,7 @@
 ## Day 2 - Python Learning
 
 - PCC Exercises with exceptions
+
+## Day 3 - Python Learning
+
+- PCC Exercises with exceptions
