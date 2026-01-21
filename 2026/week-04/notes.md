@@ -12,3 +12,4 @@
 ## Day 3 - Python Learning
 
 - PCC Exercises with exceptions
+- PCC Exercises with file reader
