@@ -3,7 +3,7 @@
 # Allow quitting with 'q'. Handle invalid input with try-except.
 # Print a friendly message if the input is not a valid number.
 
-print("Enter 'q' at any time to quit.")
+print("Enter 'q' at any time to quit.\n")
 
 while True:
     try:
@@ -22,4 +22,4 @@ while True:
         print("Sorry, I really need a number.")
     else:
         total = product1 + product2
-        print(f"The total amount of the bill is {total} euros.")
+        print(f"\nThe total amount of the bill is {total} euros.")
