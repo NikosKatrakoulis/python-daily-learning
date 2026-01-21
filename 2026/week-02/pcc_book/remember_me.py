@@ -12,7 +12,7 @@
 # username = input("What is your name? ")
 
 # path = Path(
-#     "C://Dev//python-daily-learning//2026//week-02//pcc_book//username.json")
+#     "filename.json")
 # contents = json.dumps(username)
 
 # path.write_text(contents)
@@ -28,7 +28,7 @@
 # import json
 
 # path = Path(
-#     "C://Dev//python-daily-learning//2026//week-02//pcc_book//username.json")
+#     "filename.json")
 # if path.exists():
 #     contents = path.read_text()
 #     username = json.loads(contents)
@@ -47,7 +47,7 @@
 # def greet_user():
 #     """Greet the user by name."""
 #     path = Path(
-#         "C://Dev//python-daily-learning//2026//week-02//pcc_book//username.json")
+#         "filename.json")
 #     if path.exists():
 #         contents = path.read_text()
 #         username = json.loads(contents)
@@ -82,7 +82,7 @@
 
 # def greet_user():
 #     path = Path(
-#         "C://Dev//python-daily-learning//2026//week-02//pcc_book//username.json")
+#         "filename.json")
 #     username = get_stored_username
 #     if username:
 #         print(f"Welcome back, {username}!")
@@ -125,7 +125,7 @@ def get_new_username(path):
 def greet_user():
     """Greet the user by name."""
     path = Path(
-        "C://Dev//python-daily-learning//2026//week-02//pcc_book//username.json")
+        "filename.json")
     contents = path.read_text()
     username = get_stored_username(path)
     if username:

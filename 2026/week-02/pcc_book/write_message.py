@@ -1,7 +1,6 @@
 from pathlib import Path
 
-path = Path(
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//programming.txt")
+path = Path("filename.txt")
 path.write_text("I love programming.")
 print(path)
 
@@ -14,8 +13,7 @@ contents = "I love programming.\n"
 contents += "I love creating new games.\n"
 contents += "I also love working with data.\n"
 
-path = Path(
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//programming.txt")
+path = Path("filename.txt")
 path.write_text(contents)
 
 

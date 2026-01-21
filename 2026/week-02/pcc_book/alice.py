@@ -32,7 +32,7 @@ contents = path.read_text(encoding='utf-8')
 
 from pathlib import Path
 
-path = Path("C://Dev//python-daily-learning//2026//week-02//pcc_book//alice.txt")
+path = Path("alice.txt")
 try:
     contents = path.read_text(encoding='utf-8')
 except FileNotFoundError:
@@ -44,7 +44,7 @@ except FileNotFoundError:
 # wherever it finds any whitespace:
 
 
-path = Path("C://Dev//python-daily-learning//2026//week-02//pcc_book//alice.txt")
+path = Path("alice.txt")
 try:
     contents = path.read_text(encoding='utf-8')
 except FileNotFoundError:

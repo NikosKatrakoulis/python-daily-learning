@@ -5,7 +5,7 @@ from pathlib import Path
 import json
 
 path = Path(
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//username.json")
+    "username.json")
 contents = path.read_text()
 username = json.loads(contents)
 

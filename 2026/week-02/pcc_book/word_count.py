@@ -15,7 +15,7 @@
 #         print(f"The file {path} has about {num_words} words.")
 
 
-# path = Path("C://Dev//python-daily-learning//2026//week-02//pcc_book//alice.txt")
+# path = Path("filename.txt")
 # count_words(path)
 
 from pathlib import Path
@@ -35,10 +35,10 @@ def count_words(filename):
 
 
 filenames = [
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//alice.txt",
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//siddaharta.txt",
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//moby_dick.txt",
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//little_women.txt"
+    "filename.txt",
+    "filename.txt",
+    "filename.txt",
+    "filename.txt"
 ]
 for filename in filenames:
     path = Path(filename)
@@ -80,10 +80,10 @@ def count_words(filename):
 
 
 filenames = [
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//alice.txt",
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//siddaharta.txt",
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//moby_dick.txt",
-    "C://Dev//python-daily-learning//2026//week-02//pcc_book//little_women.txt"
+    "filename.txt",
+    "filename.txt",
+    "filename.txt",
+    "filename.txt"
 ]
 for filename in filenames:
     path = Path(filename)
