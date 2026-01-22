@@ -4,7 +4,7 @@
 
 from pathlib import Path
 
-path = Path("C://Users//Μακης//Documents//GitHub//python-daily-learning//2026//week-04//exercises//attendance//attendance.txt")
+path = Path("attendance.txt")
 
 prompt = "\nWhat is your name?"
 prompt += "\nEnter 'quit' to stop if you are the last one."
