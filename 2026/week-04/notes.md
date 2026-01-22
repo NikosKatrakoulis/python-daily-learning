@@ -13,3 +13,7 @@
 
 - PCC Exercises with exceptions
 - PCC Exercises with file reader
+
+## Day 4 - Python Learning
+
+- PCC Exercises with file reader
