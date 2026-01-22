@@ -7,8 +7,7 @@
 
 from pathlib import Path
 
-bash_path = Path(
-    "C://Users//Μακης//Documents//GitHub//python-daily-learning//2026//week-04//exercises//books&movies")
+bash_path = Path("books&movies")
 
 filenames = ['books.txt', 'movies.txt']
 
