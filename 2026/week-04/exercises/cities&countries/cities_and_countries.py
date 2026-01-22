@@ -14,7 +14,7 @@ bash_path = Path("cities&countries")
 filenames = ['cities.txt', 'countries.txt']
 
 for filename in filenames:
-    print(f"\n---Reading the {filename}")
+    print(f"\nReading: {filename}")
 
     path = bash_path / filename
 
