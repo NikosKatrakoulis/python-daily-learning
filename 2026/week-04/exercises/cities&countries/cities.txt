@@ -1,0 +1,5 @@
+nyc
+la
+zurich
+athens
+amsterdam
