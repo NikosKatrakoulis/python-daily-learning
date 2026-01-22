@@ -7,8 +7,7 @@
 
 from pathlib import Path
 
-bash_path = Path(
-    "C://Users//Μακης//Documents//GitHub//python-daily-learning//2026//week-04//exercises//foods&drinks")
+bash_path = Path("foods&drinks")
 
 filenames = ['foods.txt', 'drinks.txt']
 
@@ -20,6 +19,6 @@ for filename in filenames:
     try:
         contents = path.read_text()
     except FileNotFoundError:
-        print("Sorry, Icant find the file.")
+        print("Sorry, I can't find the file.")
     else:
         print(contents.title())
