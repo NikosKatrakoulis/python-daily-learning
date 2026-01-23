@@ -17,3 +17,7 @@
 ## Day 4 - Python Learning
 
 - PCC Exercises with file reader
+
+## Day 5 - Python Learning
+
+- PCC Exercises with file reader and exceptions
