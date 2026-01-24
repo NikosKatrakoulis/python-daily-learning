@@ -21,3 +21,7 @@
 ## Day 5 - Python Learning
 
 - PCC Exercises with file reader and exceptions
+
+## Day 6 - Python Learning
+
+- PCC Exercises with file handling, json and exceptions
