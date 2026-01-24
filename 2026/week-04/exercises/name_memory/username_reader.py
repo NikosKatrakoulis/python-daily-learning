@@ -9,7 +9,7 @@
 from pathlib import Path
 import json
 
-path = Path("C://Users//Μακης//Documents//GitHub//python-daily-learning//2026//week-04//exercises//name_memory//username.json")
+path = Path("username.json")
 contents = path.read_text()
 username = json.loads(contents)
 

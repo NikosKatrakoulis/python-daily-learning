@@ -11,7 +11,7 @@ import json
 
 username = input("What is your username?")
 
-path = Path("C://Users//Μακης//Documents//GitHub//python-daily-learning//2026//week-04//exercises//name_memory//username.json")
+path = Path("username.json")
 contents = json.dumps(username)
 path.write_text(contents)
 
