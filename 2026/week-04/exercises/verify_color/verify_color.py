@@ -28,7 +28,7 @@ def get_new_user_color(path):
 
 def user_favorite_color():
     """Display the user's favorite color"""
-    path = Path("C://Users//Μακης//Documents//GitHub//python-daily-learning//2026//week-04//exercises//verify_color//verify_color.json")
+    path = Path("verify_color.json")
     user_color = get_stored_user_color(path)
     if user_color:
         correct = input(f"Is it {user_color} your favorite color? (y/n)")
