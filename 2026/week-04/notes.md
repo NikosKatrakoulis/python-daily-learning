@@ -25,3 +25,20 @@
 ## Day 6 - Python Learning
 
 - PCC Exercises with file handling, json and exceptions
+
+## Day 7 - Python Learning
+
+**What I Learned**
+
+- Automate the Boring Stuff with Python(3rd Edition)
+  - Strings and Text Editing
+    - Working with Strings
+    - Indexes and Slices
+    - F-Strings
+    - F-String Alternatives: %s and format()
+    - Useful String Methods
+    - Checking String Characteristics
+    - Checking the Start or End of a String
+    - Joining and Splitting Strings
+    - Justifying and Centering Text
+    - Removing Whitespace
