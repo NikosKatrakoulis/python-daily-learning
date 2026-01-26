@@ -8,3 +8,5 @@
   - Numeric Code Points of Characters
   - Copying and Pasting Strings
   - Project 2: Add Bullets to Wiki Markup
+
+- Python Exercises from ABSP examples with Strings and Methods
