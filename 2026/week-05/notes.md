@@ -5,9 +5,10 @@
 **What I Learned**
 
 - Automate the Boring Stuff with Python(3rd Edition)
-  - Numeric Code Points of Characters
-  - Copying and Pasting Strings
-  - Project 2: Add Bullets to Wiki Markup
+  - Strings and Text Editing
+    - Numeric Code Points of Characters
+    - Copying and Pasting Strings
+    - Project 2: Add Bullets to Wiki Markup
 
 - Python Exercises from ABSP examples with Strings and Methods
 
