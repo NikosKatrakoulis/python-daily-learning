@@ -12,6 +12,6 @@
 - Python Exercises from ABSP examples with Strings and Methods
 
 - Mini Calculator
-- main.py
-- calculator.py(classes)
-- README.md
+  - main.py
+  - calculator.py(classes)
+  - README.md
