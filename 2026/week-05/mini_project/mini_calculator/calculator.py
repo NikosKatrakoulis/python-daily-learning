@@ -9,51 +9,59 @@ It provides:
 """
 
 
+import json
+from pathlib import Path
+
+
 class Operation:
-    """Bass class for calculator operations.
+    """Base class for calculator operations.
 
     Child classes must define:
-    - symbol: the operator string (e.g 'g')
+    - symbol: the operator string (e.g '+')
     - execute(a, b): returns the result of the operation
     """
 
-    def __init__(self, a, b):
-        """Initialize the two numbers."""
-        self.a = a
-        self.b = b
+    # Each child class should override this with  real symbol (e.g. "+")
+    symbol: str = " "
 
-    def execute(self, a, b):
-        return
+    def execute(self, a: float, b: float) -> float:
+        """Execute the operator and return the result.
+
+        Raises:
+            NotImplementedError: If a child class does not implement this method.
+        """
+
+        raise NotImplementedError("Child classes must implement execute().")
 
 
 class Add(Operation):
     """Addition operation: returns a + b"""
 
-    def __init__(self, a, b):
-        super().__init__(a, b)
+    symbol = "+"
 
-    def execute(self, a, b):
-        return super().execute(a + b)
+    def execute(self, a: float, b: float) -> float:
+        """Return a + b."""
+        return a + b
 
 
 class Subtract(Operation):
     """Subtraction operation: returns a - b."""
 
-    def __init__(self, a, b):
-        super().__init__(a, b)
+    symbol = "-"
 
-    def execute(self, a, b):
-        return super().execute(a - b)
+    def execute(self, a: float, b: float) -> float:
+        """Return a - b."""
+        return a - b
 
 
 class Multiply(Operation):
     """Multiplication operation: returns a * b."""
 
-    def __init__(self, a, b):
-        super().__init__(a, b)
+    symbol = "*"
 
-    def execute(self, a, b):
-        return super().execute(a * b)
+    def execute(self, a: float, b: float) -> float:
+        """Return a * b."""
+        return a * b
 
 
 class Divide(Operation):
@@ -63,13 +71,19 @@ class Divide(Operation):
         ZeroDivisionError: if b is 0.
     """
 
-    def __init__(self, a, b):
-        super().__init__(a, b)
+    symbol = "/"
 
-    def execute(self, a, b):
-        if self.b == 0:
-            return ZeroDivisionError
-        return super().execute(a / b)
+    def execute(self, a: float, b: float) -> float:
+        """Return a / b.
+
+        Raises:
+            ZeroDivisionError: if b is 0.
+        """
+
+        if b == 0:
+            # We raise an exception so the caller(main menu) can handle it nicely.
+            raise ZeroDivisionError("Cannot divide by zero.")
+        return a / b
 
 
 class Calculator:
@@ -79,42 +93,79 @@ class Calculator:
     Example: calculate(5,2, '+') uses the Add operation
     """
 
-    def __init__(self):
-        self.dict = {
-            "+": Add(),
-            "-": Subtract(),
-            "*": Multiply(),
-            "/": Divide()
+    def __init__(self) -> None:
+        # Map each operator symbol to the operation object that can execute it.
+        self.operations = {
+            Add.symbol: Add(),
+            Subtract.symbol: Subtract(),
+            Multiply.symbol: Multiply(),
+            Divide.symbol: Divide()
         }
 
-    def available_operations(self, operators):
-        self.operators = ["+", "-", "*", "/"]
-        return self.operators
+    def available_operations(self) -> list[str]:
+        """Return a list of available operation symbols (e.g. ['+', '-', '*', '/'])."""
+        return list(self.operations.keys())
+
+    def calculate(self, a: float, b: float, op: str) -> float:
+        """Calculate a result using the given operator symbol.
+
+        Raises:
+            ValueError: If op is not a supported operation.
+        """
+
+        if op not in self.operations:
+            raise ValueError("Invalid operation.")
+        return self.operations[op].execute(a, b)
 
 
 class HistoryManager:
-    """Manages calculation history stored in a JSON file.
+    """Manages calculation history stored in  JSON file.
 
     Each history record looks like:
     {
-      "a":5,
+      "":5,
       "b":2,
       "op": "+",
       "result": 7
     }
     """
 
-    def __init__(self, file_path="history.json"):
-        pass
+    def __init__(self, file_path: str = "history.json") -> None:
+        """Create a history manager that reads/writes to the given JSON file."""
+        self.file_path = Path(file_path)
 
-    def load(self):
-        pass
+    def load(self) -> list[dict]:
+        """Load and return the history list from the JSON file.
 
-    def save(self, history):
-        pass
+        Returns:
+            A list of history records. If the file does not exist or is invalid
+            returns an empty list.
+        """
+        if not self.file_path.exists():
+            return []
 
-    def append(self, history, a, b, op, result):
-        pass
+        try:
+            with self.file_path.open("r", encoding="utf-8") as f:
+                data = json.load(f)
 
-    def clear(self):
-        pass
+            # We expect a list. If something else is stored, return empty list
+            if isinstance(data, list):
+                return data
+            return []
+        except (json.JSONDecodeError, OSError):
+            return []
+
+    def save(self, history: list[dict]) -> None:
+        """Save the given history list to the JSON file."""
+        with self.file_path.open("w", encoding="utf-8") as f:
+            json.dump(history, f, indent=2)
+
+    def append(self, history: list[dict], a: float, b: float, op: str, result: float) -> list[dict]:
+        """Append a new calculation record to history and return the updated list."""
+        record = {"a": a, "b": b, "op": op, "result": result}
+        history.append(record)
+        return history
+
+    def clear(self) -> None:
+        """Clear the history file (save an empty list.)"""
+        self.save([])
