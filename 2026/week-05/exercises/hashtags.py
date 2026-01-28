@@ -3,3 +3,12 @@
 # join() to produce:
 # "#i #love #python #programming"
 # Print the final hashtag string.
+
+sentence = input("Give me a sentence:")
+
+words = sentence.lower().split()
+
+hashtags = ['#' + word for word in words]
+
+result = ' '.join(hashtags)
+print(result)
