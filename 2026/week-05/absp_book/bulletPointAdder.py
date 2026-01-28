@@ -19,3 +19,11 @@ for i in range(len(lines)):  # Loop through all indexes in the "lines" list.
 text = '\n'.join(lines)
 pyperclip.copy(text)
 print(text)
+
+# When this program is run, it replaces the text on the clipboard with text
+# that has stars at the start of each line. Now the program is complete, and you
+# can try running it with text copied to the clipboard.
+# Even if you don’t need to automate this specific task, you might want to
+# automate some other kind of text manipulation, such as removing trailing
+# spaces from the end of lines or converting text to uppercase or lowercase.
+# Whatever your needs, you can use the clipboard for input and output.
