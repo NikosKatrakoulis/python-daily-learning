@@ -16,3 +16,11 @@
   - main.py
   - calculator.py(classes)
   - README.md
+
+## Day 3 - Python Learning
+
+**What I Learned**
+
+- Automate the Boring Stuff with Python(3rd Edition)
+  - Strings and Text Editing
+    - A Short Program: Pig Latin
