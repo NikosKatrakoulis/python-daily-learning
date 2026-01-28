@@ -26,3 +26,6 @@
     - A Short Program: Pig Latin
 
 - Python Exercises from ABSP examples with Strings and Text Editing
+
+- Mini Calculator
+  - Working on calculator.py file with the classes, the functions and the docstring for documentation
