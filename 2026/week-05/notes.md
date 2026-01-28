@@ -10,7 +10,7 @@
     - Copying and Pasting Strings
     - Project 2: Add Bullets to Wiki Markup
 
-- Python Exercises from ABSP examples with Strings and Methods
+- Python Exercises from ABSP examples with Strings and Text Editing
 
 - Mini Calculator
   - main.py
@@ -24,3 +24,5 @@
 - Automate the Boring Stuff with Python(3rd Edition)
   - Strings and Text Editing
     - A Short Program: Pig Latin
+
+- Python Exercises from ABSP examples with Strings and Text Editing
