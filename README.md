@@ -24,11 +24,15 @@ mini_projects/ # Small experiments & mini projects
 
 ## 🧠 What I’m practicing
 
-- Python fundamentals (syntax, variables, control flow)
-- Data structures (lists, dictionaries, tuples, sets)
-- Functions and basic problem solving
-- Writing clean and readable code
-- Applying concepts through small exercises and projects
+- Core Python fundamentals (syntax, variables, control flow)
+- Data structures in depth (lists, dictionaries, tuples, sets)
+- Working with nested data structures and real-world data
+- Functions, parameters, return values and basic error handling
+- Object-Oriented Programming (classes, inheritance, composition)
+- Organizing code using classes as modules
+- File handling (reading/writing files, working with file paths)
+- Writing clean, readable and maintainable Python code
+- Applying concepts through exercises from *Python Crash Course* and *Automate the Boring Stuff with Python*
 
 ---
 
