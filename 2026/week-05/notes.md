@@ -39,3 +39,6 @@
     - Finding Text Patterns Without Regular Expressions
 
 - Python Exercises from ABSP examples with Strings and Text Editing
+
+- Mini Calculator
+  - Working on main.py file
