@@ -37,3 +37,5 @@
 - Automate the Boring Stuff with Python(3rd Edition)
   - Text Pattern Matching with Regular Expressions
     - Finding Text Patterns Without Regular Expressions
+
+- Python Exercises from ABSP examples with Strings and Text Editing
