@@ -11,5 +11,5 @@ clean_items = []
 for item in items:
     clean_items.append(item.strip())
 
-result = '|'.join(clean_items)
+result = ' | '.join(clean_items)
 print(result)
