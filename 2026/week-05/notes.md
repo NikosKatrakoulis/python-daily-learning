@@ -29,3 +29,11 @@
 
 - Mini Calculator
   - Working on calculator.py file with the classes, the functions and the docstring for documentation
+
+## Day 4 - Python Learning
+
+**What I Learned**
+
+- Automate the Boring Stuff with Python(3rd Edition)
+  - Text Pattern Matching with Regular Expressions
+    - Finding Text Patterns Without Regular Expressions
