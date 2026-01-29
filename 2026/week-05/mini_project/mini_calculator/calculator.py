@@ -132,7 +132,8 @@ class HistoryManager:
 
     def __init__(self, file_path: str = "history.json") -> None:
         """Create a history manager that reads/writes to the given JSON file."""
-        self.file_path = Path(file_path)
+        project_dir = Path(__file__).resolve().parent
+        self.file_path = project_dir / file_path
 
     def load(self) -> list[dict]:
         """Load and return the history list from the JSON file.
