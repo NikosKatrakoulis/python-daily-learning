@@ -42,3 +42,13 @@
 
 - Mini Calculator
   - Working on main.py file
+
+## Day 4 - Python Learning
+
+**What I Learned**
+
+- Automate the Boring Stuff with Python(3rd Edition)
+  - Text Pattern Matching with Regular Expressions
+    - Finding Text Patterns with Regular Expressions
+    - The Syntax of Regular Expressions
+      - Grouping with Parentheses
