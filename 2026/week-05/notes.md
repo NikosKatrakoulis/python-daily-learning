@@ -43,7 +43,7 @@
 - Mini Calculator
   - Working on main.py file
 
-## Day 4 - Python Learning
+## Day 5 - Python Learning
 
 **What I Learned**
 
@@ -52,3 +52,5 @@
     - Finding Text Patterns with Regular Expressions
     - The Syntax of Regular Expressions
       - Grouping with Parentheses
+
+- Python Exercises from ABSP examples with Strings and Text Editing
