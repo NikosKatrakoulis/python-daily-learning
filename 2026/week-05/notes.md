@@ -54,6 +54,12 @@
       - Grouping with Parentheses
 
 - Python Exercises from ABSP examples with Strings and Text Editing
+
+## Day 6 - Python Learning
+
+**What I Learned**
+
+- Automate the Boring Stuff with Python(3rd Edition)
   - Text Pattern Matching with Regular Expressions
     - Using Escape Characters
     - Matching Characters from Alternate Groups
@@ -62,3 +68,5 @@
     - Using Character Classes and Negative Character Classes
     - Using Shorthand Character Classes
     - Matching Everything with the Dot Character
+
+- Python Exercises from ABSP examples with Strings and Text Editing
