@@ -17,7 +17,7 @@ for character in text:
             alt_text.append(character.upper())
         else:
             alt_text.append(character.lower())
-            make_uppercase = not make_uppercase
+        make_uppercase = not make_uppercase
     else:
         alt_text.append(character)
 

@@ -7,23 +7,21 @@
 
 import pyperclip
 
-# Get text from clipboard
 text = pyperclip.paste()
+changed_text = []
 
-result_chars = []
-position = 1  # Character position(starts from 1)
+position = 1
 
 for character in text:
-    if position % 3 == 0:
-        result_chars.append(character.upper())
+    if character.isalpha():
+        if position % 3 == 0:
+            changed_text.append(character.upper())
+        else:
+            changed_text.append(character.lower())
+        position += 1
     else:
-        result_chars.append(character.lower())
+        changed_text.append(character)
 
-    position += 1
-
-# Build final string
-result = "".join(result_chars)
-
-# Copy back to clipboard and print
+result = "".join(changed_text)
 pyperclip.copy(result)
 print(result)

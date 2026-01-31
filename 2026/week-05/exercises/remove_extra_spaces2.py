@@ -8,19 +8,17 @@
 import pyperclip
 
 text = pyperclip.paste()
-reverse_text = []
-make_uppercase = False
+result = []
 
-for character in text:
-    if character.isalpha():
-        if make_uppercase:
-            reverse_text.append(character.upper())
-        else:
-            reverse_text.append(character.lower())
-        make_uppercase = not make_uppercase
-    else:
-        reverse_text.append(character)
+prev_char = ""
 
-result = "".join(reverse_text)
-pyperclip.copy(result)
-print(result)
+for char in text:
+    if char == " " and prev_char == " ":
+        continue
+
+    result.append(char)
+    prev_char = char
+
+final_text = "".join(result)
+pyperclip.copy(final_text)
+print(final_text)

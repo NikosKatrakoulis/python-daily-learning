@@ -8,23 +8,20 @@
 
 import pyperclip
 
-# Read text from the clipboard
 text = pyperclip.paste()
+result_text = []
 
-VOWELS = "aieou"
-result = ""
+VOWELS = "aeiou"
 
-for char in text:
-    if char.isalpha():
-        if char.lower() in VOWELS:
-            result += char.upper()
+for character in text:
+    if character.isalpha():
+        if character in VOWELS:
+            result_text.append(character.upper())
         else:
-            result += char.lower()
+            result_text.append(character.lower())
     else:
-        # Keep spaces,punctuation and numbers as they are
-        result += char
-# Copy result back to the clipboard
-pyperclip.copy(result)
+        result_text.append(character)
 
-# Print final text
+result = "".join(result_text)
+pyperclip.copy(result)
 print(result)
