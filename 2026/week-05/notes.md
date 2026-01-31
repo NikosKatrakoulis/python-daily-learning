@@ -70,3 +70,7 @@
     - Matching Everything with the Dot Character
 
 - Python Exercises from ABSP examples with Strings and Text Editing
+
+- Mini Calculator
+  - Adding details to REAMme file
+  - Small changes and Review the code in calculator.py

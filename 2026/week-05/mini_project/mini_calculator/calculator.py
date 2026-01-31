@@ -3,7 +3,7 @@ calculator.py
 
 A beginner-friendly, class-based calculator module.
 It provides:
-- Operation classes(Add,Subtract,Multiply,Divide)
+- Operation classes(Add, Subtract, Multiply, Divide)
 - A Calculator dispatcher that selects the correct operation
 - A HistoryManager to load/save calculation history in JSON format
 """
@@ -17,15 +17,15 @@ class Operation:
     """Base class for calculator operations.
 
     Child classes must define:
-    - symbol: the operator string (e.g '+')
+    - symbol: the operator string (e.g. '+')
     - execute(a, b): returns the result of the operation
     """
 
     # Each child class should override this with  real symbol (e.g. "+")
-    symbol: str = " "
+    symbol: str = ""
 
     def execute(self, a: float, b: float) -> float:
-        """Execute the operator and return the result.
+        """Execute the operation and return the result.
 
         Raises:
             NotImplementedError: If a child class does not implement this method.
@@ -35,7 +35,7 @@ class Operation:
 
 
 class Add(Operation):
-    """Addition operation: returns a + b"""
+    """Addition operation: returns a + b."""
 
     symbol = "+"
 
@@ -81,7 +81,7 @@ class Divide(Operation):
         """
 
         if b == 0:
-            # We raise an exception so the caller(main menu) can handle it nicely.
+            # We raise an exception so the caller (main menu) can handle it nicely.
             raise ZeroDivisionError("Cannot divide by zero.")
         return a / b
 
@@ -90,7 +90,7 @@ class Calculator:
     """Calculator dispatcher.
 
     Stores available operations and executes them based on an operator symbol.
-    Example: calculate(5,2, '+') uses the Add operation
+    Example: calculate(5, 2, '+') uses the Add operation.
     """
 
     def __init__(self) -> None:
@@ -99,7 +99,7 @@ class Calculator:
             Add.symbol: Add(),
             Subtract.symbol: Subtract(),
             Multiply.symbol: Multiply(),
-            Divide.symbol: Divide()
+            Divide.symbol: Divide(),
         }
 
     def available_operations(self) -> list[str]:
@@ -119,11 +119,11 @@ class Calculator:
 
 
 class HistoryManager:
-    """Manages calculation history stored in  JSON file.
+    """Manages calculation history stored in JSON file.
 
     Each history record looks like:
     {
-      "":5,
+      "a":5,
       "b":2,
       "op": "+",
       "result": 7
@@ -139,7 +139,7 @@ class HistoryManager:
         """Load and return the history list from the JSON file.
 
         Returns:
-            A list of history records. If the file does not exist or is invalid
+            A list of history records. If the file does not exist or is invalid,
             returns an empty list.
         """
         if not self.file_path.exists():
