@@ -54,3 +54,11 @@
       - Grouping with Parentheses
 
 - Python Exercises from ABSP examples with Strings and Text Editing
+  - Text Pattern Matching with Regular Expressions
+    - Using Escape Characters
+    - Matching Characters from Alternate Groups
+    - Returning All Matches
+  - Qualifier Syntax: What Characters to Match
+    - Using Character Classes and Negative Character Classes
+    - Using Shorthand Character Classes
+    - Matching Everything with the Dot Character
