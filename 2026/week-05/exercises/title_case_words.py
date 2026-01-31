@@ -21,7 +21,7 @@ for char in text:
             result.append(char.lower())
 
     else:
-        # keep punctuation, numbers, spaces and newlines unchanged
+        # Κeep punctuation, numbers, spaces and newlines unchanged
         result.append(char)
 
     if char.isspace():
