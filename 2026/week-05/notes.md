@@ -89,3 +89,5 @@
     - Matcgubg a Specific Number of Qualifiers
   - Greedy and Non-greedy Matching
     - Matching Everything
+
+- Python Exercises from ABSP examples with pig latin language game
