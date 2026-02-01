@@ -91,3 +91,6 @@
     - Matching Everything
 
 - Python Exercises from ABSP examples with pig latin language game
+
+- Mini Calculator
+  - Review
