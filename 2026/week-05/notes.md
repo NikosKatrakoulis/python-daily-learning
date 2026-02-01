@@ -74,3 +74,18 @@
 - Mini Calculator
   - Adding details to REAMme file
   - Small changes and Review the code in calculator.py
+
+## Day 7 - Python Learning
+
+**What I Learned**
+
+- Automate the Boring Stuff with Python(3rd Edition)
+  - Qualifier Syntax: What Characters to Match
+    - Being Careful What You Match For
+  - Quantifier Syntax: How Many Qualifiers to Match
+    - Matching an Optional Pattern
+    - Matching Zero or More Qualifiers
+    - Matching One or More Qualifiers
+    - Matcgubg a Specific Number of Qualifiers
+  - Greedy and Non-greedy Matching
+    - Matching Everything
