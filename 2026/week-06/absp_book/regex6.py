@@ -28,3 +28,5 @@ print(match2)
 
 match3 = pattern.search("Have you seen robocop").group()
 print(match3)
+
+# The regular expression now matches strings with any casing.
