@@ -7,3 +7,5 @@
     - Matching Newline Characters
   - Matching at the Start and End of a String
   - Case-insensitive Matching
+
+- Python Exercises from ABSP examples with pig latin language game
