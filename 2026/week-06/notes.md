@@ -9,3 +9,6 @@
   - Case-insensitive Matching
 
 - Python Exercises from ABSP examples with pig latin language game
+
+- Mini Unit Converter
+  - Build in the files and make the classes and the functions with docstrings
