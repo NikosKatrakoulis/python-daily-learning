@@ -21,3 +21,11 @@
 
 - Automate the Boring Stuff with Python(3rd Edition)
   - Substituting Strings
+
+## Day 4 - Python Learning
+
+**What I Learned**
+
+- Automate the Boring Stuff with Python(3rd Edition)
+  - Managing Complex Regexes with Verbose Mode
+  - Combining re.IGNORECASE, re.DOTALL and re.VERBOSE
