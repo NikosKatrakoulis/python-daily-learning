@@ -29,3 +29,5 @@
 - Automate the Boring Stuff with Python(3rd Edition)
   - Managing Complex Regexes with Verbose Mode
   - Combining re.IGNORECASE, re.DOTALL and re.VERBOSE
+
+- Python Exercises from ABSP examples with regex
