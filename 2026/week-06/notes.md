@@ -43,3 +43,18 @@
     - Step 3: Find All Matches in the Clipboard Text
     - Step 4: Join the Matches into a String
     - Ideas for Similar Programs
+
+## Day 7 - Python Learning
+
+**What I Learned**
+
+- Python Crash Course(3rd Edition)
+  - Introduction
+  - Part I Basics
+  - Getting Started
+    - Setting Up Your Programming Environment
+      - Running Snippets of Python Code
+      - About the VS Code Editor
+    - Python on Diferrent Operating Systems
+    - Troubleshooting
+    - Running Python Programs from a Terminal
