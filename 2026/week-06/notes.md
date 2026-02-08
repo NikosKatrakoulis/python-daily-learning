@@ -58,3 +58,5 @@
     - Python on Diferrent Operating Systems
     - Troubleshooting
     - Running Python Programs from a Terminal
+
+- Python Exercises Examples from PCC book Chapter I
