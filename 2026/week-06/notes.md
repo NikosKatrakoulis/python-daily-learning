@@ -31,3 +31,15 @@
   - Combining re.IGNORECASE, re.DOTALL and re.VERBOSE
 
 - Python Exercises from ABSP examples with regex
+
+## Day 6 - Python Learning
+
+**What I Learned**
+
+- Automate the Boring Stuff with Python(3rd Edition)
+  - Project 3: Phone Number and Email Address Extractor
+    - Step 1: Create a Regex for Phone Numbers
+    - Step 2: Create a Regex for Email Addresses
+    - Step 3: Find All Matches in the Clipboard Text
+    - Step 4: Join the Matches into a String
+    - Ideas for Similar Programs
